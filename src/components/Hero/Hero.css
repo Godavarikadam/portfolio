@@ -1,0 +1,120 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+
+.hero img{
+    /* width: 50%; */
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 39px;
+    font-weight: 700;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+   
+
+} 
+.hero p{
+    font-size: 29px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 2px;
+} 
+.action{
+    color: white;
+    margin: auto;
+    /* background-color: rgb(198, 206, 204); */
+    margin-bottom: 40px;
+}
+.resume{
+    font-size: 18px;
+    padding: 10px 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.connect{
+ 
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    
+}
+.connect div{
+    padding: 6px 6px;
+ background-color: beige;
+ border-radius: 10px;
+ 
+
+}
+.connect div :hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+@media screen and (max-width:740px) {
+    .hero{
+       gap: 35px;
+        
+    }
+    
+    .hero img{
+        z-index: 1;
+        height: 250px;
+        width: 250px;
+        border-radius: 100%;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        padding-top: 7px;
+    }
+    .hero p{
+        margin-bottom: 1px;
+        font-size: 22px;
+        text-align: center;
+       
+    } 
+    .hero h1{
+        text-align: center;
+        width: 70%;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 31px;
+       
+    
+    } 
+    .resume{
+        font-size: 16px;
+        padding: 8px 12px;
+        border-radius: 30px;
+       font-weight: 600;
+        border: 1px solid black;
+    }
+    .connect{
+        
+        gap: 30px;
+        margin-bottom: 22px;
+        
+    }
+    .connect div{
+        padding: 3px 3px;
+    
+ }
+    
+}
+
+
